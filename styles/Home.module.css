@@ -134,7 +134,6 @@
 }
 
 .formSection ol {
-  /* center this element in the screen and have the elements on the left side */
   display: flex;
   justify-content: center;
   align-items: left;
@@ -155,14 +154,13 @@
 }
 
 .formLink {
-  font-size: 1rem;
+  font-size: 1.5rem;
   margin: 10px;
-  padding: 10px 10px 30px;
+  padding: 20px 20px 40px;
   border: 1px solid #2b8351;
   border-radius: 5px;
   background-color: #fff;
   color: #2b8351;
-  text-decoration: none;
   align-items: center;
   justify-content: center;
 }
@@ -174,9 +172,9 @@
 }
 
 .formLink svg {
-  margin: 10px 10px 0 0;
-  width: 1.5rem;
-  height: 1.5rem;
+  margin: 20px 20px 0 0;
+  width: 2rem;
+  height: 2rem;
 }
 
 @media (max-width: 768px) {
@@ -203,4 +201,29 @@
     width: 200px;
     height: 200px;
   }
+
+  .formSection p {
+    font-size: 1.5rem;
+    padding: 0 20px;
+  }
+
+  .formSection ol {
+    width: 80%;
+  }
+
+  .formLinks {
+    flex-direction: column;
+  }
+
+  .formLink {
+    font-size: 1rem;
+    width: 80%;
+  }
+
+  .formLink svg {
+    margin: 10px 10px 0 0;
+    width: 1rem;
+    height: 1rem;
+  }
+
 }

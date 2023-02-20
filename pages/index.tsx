@@ -164,31 +164,31 @@ export default function Home() {
             <div className={styles.formLinks}>
               <a
                 className={styles.formLink}
-                href="../public/documents/Tricare_Form.pdf"
-                download
+                href="/documents/Tricare_Form.pdf"
+                target="_blank"
               >
                 <BsFillFileArrowDownFill />
                 Tricare
               </a>
               <a
                 className={styles.formLink}
-                href="../public/documents/Medicare_Form.pdf"
-                download
+                href="/documents/Medicare_Form.pdf"
+                target="_blank"
               >
                 <BsFillFileArrowDownFill />
                 Medicare
               </a>
               <a
                 className={styles.formLink}
-                href="../public/documents/Other_Insurance_Form.pdf"
-                download
+                href="/documents/Other_Insurance_Form.pdf"
+                target="_blank"
               >
                 <BsFillFileArrowDownFill />` Other Insurance
               </a>
               <a
                 className={styles.formLink}
-                href="../public/documents/Intermediate_Exam_Form_No_Insurance.pdf"
-                download
+                href="/documents/Intermediate_Exam_Form_No_Insurance.pdf"
+                target="_blank"
               >
                 <BsFillFileArrowDownFill />
                 Self Pay (No Insurance)
