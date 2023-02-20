@@ -1,0 +1,104 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  margin: 1rem 2rem;
+}
+
+.NextLink {
+  margin: 0 1rem;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: black;
+}
+
+/* Footer container */
+.footer {
+  background-color: #fff;
+  padding: 20px;
+}
+
+/* Footer content container */
+.footerContent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* Footer left section */
+.footerLeft {
+  flex: 1;
+  max-width: 400px;
+}
+
+/* Footer left section headings */
+.footerLeft h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+/* Footer left section address */
+.footerLeft p {
+  font-size: 1rem;
+  margin: 0;
+}
+
+/* Footer left section phone link */
+.footerLeft a {
+  color: #333;
+  text-decoration: none;
+}
+
+/* Footer right section */
+.footerRight {
+  flex: 1;
+  max-width: 400px;
+}
+
+/* Footer right section headings */
+.footerRight h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+/* Footer right section hours */
+.footerRight p {
+  font-size: 1rem;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .nav {
+    flex-direction: column;
+    -ms-flex-align: start;
+  }
+
+  .nav ul {
+    display: flex;
+    flex-direction: column;
+    -ms-flex-align: start;
+  }
+
+  .nav a {
+    margin: 0.5rem;
+  }
+
+  .footerContent {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footerLeft {
+    margin-bottom: 2rem;
+    width: 100%;
+  }
+
+  .footerRight {
+    margin-bottom: 2rem;
+    width: 100%;
+  }
+}
