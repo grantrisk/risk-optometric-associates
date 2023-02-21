@@ -225,5 +225,44 @@
     width: 1rem;
     height: 1rem;
   }
+}
 
+@media (prefers-color-scheme: dark) {
+  .insuranceSection {
+    background-color: #1f1f1f;
+  }
+
+  .insuranceSection h2 {
+    color: #fff;
+  }
+
+  .insuranceSection p {
+    color: #fff;
+  }
+
+  .insuranceImages img {
+    border: 1px solid #fff;
+    background-color: #fff;
+  }
+
+  /* for the location section make it a different dark color */
+  .locationSection {
+    background-color: #2b2b2b;
+  }
+
+  .locationSection h2 {
+    color: #fff;
+  }
+
+  .locationSection p {
+    color: #fff;
+  }
+
+  .location li {
+    border: 1px solid #fff;
+  }
+
+  .formSection {
+    background-color: #1f1f1f;
+  }
 }

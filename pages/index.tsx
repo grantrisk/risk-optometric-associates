@@ -183,7 +183,8 @@ export default function Home() {
                 href="/documents/Other_Insurance_Form.pdf"
                 target="_blank"
               >
-                <BsFillFileArrowDownFill />` Other Insurance
+                <BsFillFileArrowDownFill />
+                Other Insurance
               </a>
               <a
                 className={styles.formLink}

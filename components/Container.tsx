@@ -31,9 +31,7 @@ export default function Container(props) {
         <div>
           <ul>
             <NavItem href="/" text="Home" />
-            <NavItem href="/contact-us" text="Contact Us" />
             <NavItem href="/about-us" text="About Us" />
-            <NavItem href="/privacy-policy" text="Privacy Policy" />
           </ul>
         </div>
       </nav>
@@ -50,6 +48,13 @@ export default function Container(props) {
             <p>
               <a href="tel:910-488-4674">(910) 488-4674</a>
             </p>
+            <br />
+            <div className={styles.emergency}>
+              <p>Emergency Number</p>
+              <p>
+                <a href="tel:910-527-9517">(910) 527-9517</a>
+              </p>
+            </div>
           </div>
           <div className={styles.footerRight}>
             <h3>Hours</h3>

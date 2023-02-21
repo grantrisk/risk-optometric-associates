@@ -1,0 +1,135 @@
+.ourMission {
+  background-color: #f5f5f5;
+  padding: 2rem;
+}
+
+.ourMission h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+.ourMission h1 svg {
+  margin-right: 10px;
+}
+
+.ourMission p {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+
+.ourDoctors {
+  background-color: #fff;
+  padding: 2rem;
+}
+
+.ourDoctors h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+.ourDoctors h1 svg {
+  margin-right: 10px;
+}
+
+.ourDoctors p {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+
+.doctor {
+  border: 1px solid #2b8351;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+  width: 70%;
+  margin: 1rem auto;
+}
+
+.doctorInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0 2rem;
+}
+
+.doctor img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10%;
+}
+
+.doctor h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.doctor p {
+  text-align: left;
+  font-size: 1.1rem;
+  font-weight: 400;
+  margin-bottom: 10px;
+  width: 70%;
+}
+
+@media (max-width: 768px) {
+  .doctor {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .doctor p {
+    width: 100%;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .ourMission {
+    background-color: #2b2b2b;
+  }
+
+  .ourMission h1 {
+    color: #fff;
+  }
+
+  .ourMission p {
+    color: #fff;
+  }
+
+  .ourDoctors {
+    background-color: #1f1f1f;
+  }
+
+  .ourDoctors h1 {
+    color: #fff;
+  }
+
+  .ourDoctors p {
+    color: #fff;
+  }
+
+  .doctor {
+    border: 1px solid #fff;
+  }
+
+  .doctor h2 {
+    color: #fff;
+  }
+
+  .doctor p {
+    color: #fff;
+  }
+}
