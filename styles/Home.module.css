@@ -183,7 +183,6 @@
   }
 
   .headSection h1 {
-    /* allow wrapping */
     white-space: normal;
   }
 
@@ -192,14 +191,27 @@
     width: 300px;
   }
 
+  .insuranceSection p {
+    padding: 0 20px;
+  }
+
   .insuranceImages img {
-    width: 200px;
+    width: 150px;
     height: 100px;
   }
 
+  .locationSection p{
+    padding: 0 20px;
+  }
+
   .location li {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 100px;
+  }
+
+  .location p, .location a {
+    font-size: 0.7rem;
+    margin: 0;
   }
 
   .formSection p {

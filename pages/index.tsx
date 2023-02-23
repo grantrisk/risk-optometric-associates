@@ -74,67 +74,43 @@ export default function Home() {
             <div className={styles.location}>
               <ul>
                 <li>
-                  <br />
-                  7701 S Raeford Rd
-                  <br />
-                  Fayetteville, NC 28304
-                  <br />
+                  <p>7701 S Raeford Rd</p>
+                  <p>Fayetteville, NC 28304</p>
                   <a href="tel:9108260100">(910) 826-0100</a>
                 </li>
                 <li>
-                  <br />
-                  4601 Ramsey St
-                  <br />
-                  Fayetteville, NC 28311
-                  <br />
+                  <p>4601 Ramsey St</p>
+                  <p>Fayetteville, NC 28311</p>
                   <a href="tel:9104884674">(910) 488-4674</a>
                 </li>
                 <li>
-                  <br />
-                  1550 Skibo Rd
-                  <br />
-                  Fayetteville, NC 28303
-                  <br />
+                  <p>1550 Skibo Rd</p>
+                  <p>Fayetteville, NC 28303</p>
                   <a href="tel:9109732366">(910) 973-2366</a>
                 </li>
                 <li>
-                  <br />
-                  250 Highlands Square Dr
-                  <br />
-                  Hendersonville, NC 28792
-                  <br />
+                  <p>250 Highlands Square Dr</p>
+                  <p>Hendersonville, NC 28792</p>
                   <a href="tel:8286967898">(828) 696-7898</a>
                 </li>
                 <li>
-                  <br />
-                  601 Souter Pl
-                  <br />
-                  Fort Bragg, NC 28307
-                  <br />
+                  <p>601 Souter Pl</p>
+                  <p>Fort Bragg, NC 28307</p>
                   <a href="tel:9104970082">(910) 497-0082</a>
                 </li>
                 <li>
-                  <br />
-                  3030 N Main St
-                  <br />
-                  Hope Mills, NC 28348
-                  <br />
+                  <p>3030 N Main St</p>
+                  <p>Hope Mills, NC 28348</p>
                   <a href="tel:9104246413">(910) 424-6413</a>
                 </li>
                 <li>
-                  <br />
-                  2025 N Marine Blvd
-                  <br />
-                  Jacksonville, NC 28546
-                  <br />
+                  <p>2025 N Marine Blvd</p>
+                  <p>Jacksonville, NC 28546</p>
                   <a href="tel:9109371297">(910) 937-1297</a>
                 </li>
                 <li>
-                  <br />
-                  250 Turner St
-                  <br />
-                  Aberdeen, NC 28315
-                  <br />
+                  <p>250 Turner St</p>
+                  <p>Aberdeen, NC 28315</p>
                   <a href="tel:9106951034">(910) 695-1034</a>
                 </li>
               </ul>
@@ -146,19 +122,20 @@ export default function Home() {
               <FaClipboardList /> Come Prepared
             </h2>
             <p>
-              Fill out our form and we will contact you to schedule your
-              appointment.
+              Fill out our form and contact us to schedule your appointment.
             </p>
             <p>Follow these steps for a faster sign-in process!</p>
             <ol>
               <li>Find the right form(s) for you</li>
-              <li>Click on &quot;Download Form&quot;</li>
-              <li>Open the .pdf file on your computer with Acrobat Reader</li>
+              <li>Click on the Form you want</li>
+              <li>
+                Download the .pdf file on your computer and print it out or fill
+                it out online
+              </li>
               <li>
                 Fill out the electronic form to the best of your knowledge and
                 we&apos;ll help with the rest
               </li>
-              <li>Print out the form (or Save and print later)</li>
               <li>Bring the forms in with you for your visit</li>
             </ol>
             <div className={styles.formLinks}>
