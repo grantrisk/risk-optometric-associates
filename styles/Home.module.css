@@ -110,6 +110,10 @@
   flex-direction: column;
 }
 
+.location li a p {
+  color: rgb(var(--foreground-rgb));
+}
+
 .location li a {
   color: #2b8351;
 }
