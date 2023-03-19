@@ -12,7 +12,7 @@ function NavItem({ href, text }) {
 
   return (
     <NextLink href={href} passHref>
-      <div className={styles.NextLink}>
+      <div>
         <span>{text}</span>
       </div>
     </NextLink>
