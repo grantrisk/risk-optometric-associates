@@ -6,18 +6,26 @@ import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import logo from "@/public/risk-optometric-associates-horizontal.svg";
 
-function NavItem({ href, text }) {
+function NavItem({ href, text, closeMenu }) {
   const router = useRouter();
   const isActive = router.asPath === href;
 
+  const handleClick = (e) => {
+    if (isActive) {
+      e.preventDefault();
+      closeMenu();
+    }
+  };
+
   return (
     <NextLink href={href} passHref>
-      <div>
+      <div onClick={handleClick}>
         <span>{text}</span>
       </div>
     </NextLink>
   );
 }
+
 
 export default function Container(props) {
   const [mounted, setMounted] = useState(false);
@@ -27,6 +35,11 @@ export default function Container(props) {
   useEffect(() => setMounted(true), []);
 
   const { children, ...customMeta } = props;
+
+  const closeMenu = () => {
+    setMobileMenuVisible(false);
+    setHamburgerActive(false);
+  };
 
   return (
     <>
@@ -51,8 +64,8 @@ export default function Container(props) {
           })}
         >
           <ul>
-            <NavItem href="/" text="Home" />
-            <NavItem href="/about-us" text="About Us" />
+            <NavItem href="/" text="Home" closeMenu={closeMenu}/>
+            <NavItem href="/about-us" text="About Us" closeMenu={closeMenu}/>
           </ul>
         </div>
       </nav>
