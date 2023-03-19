@@ -6,32 +6,66 @@ import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import logo from "@/public/risk-optometric-associates-horizontal.svg";
 
-function NavItem({ href, text }) {
+function NavItem({ href, text, closeMenu }) {
   const router = useRouter();
   const isActive = router.asPath === href;
 
+  const handleClick = (e) => {
+    if (isActive) {
+      e.preventDefault();
+      closeMenu();
+    }
+  };
+
   return (
-    <NextLink href={href} className={styles.NextLink}>
-      <span>{text}</span>
+    <NextLink href={href} passHref>
+      <div onClick={handleClick}>
+        <span>{text}</span>
+      </div>
     </NextLink>
   );
 }
 
+
 export default function Container(props) {
   const [mounted, setMounted] = useState(false);
+  const [isMobileMenuVisible, setMobileMenuVisible] = useState(false);
+  const [isHamburgerActive, setHamburgerActive] = useState(false); // Add this line
 
   useEffect(() => setMounted(true), []);
 
   const { children, ...customMeta } = props;
 
+  const closeMenu = () => {
+    setMobileMenuVisible(false);
+    setHamburgerActive(false);
+  };
+
   return (
     <>
       <nav className={styles.nav}>
         <Image src={logo} alt="Risk Optometric Associates Logo" height={50} />
-        <div>
+        <button
+          className={cn(styles.hamburger, {
+            [styles.active]: isHamburgerActive, // Add this line
+          })}
+          onClick={() => {
+            setMobileMenuVisible(!isMobileMenuVisible);
+            setHamburgerActive(!isHamburgerActive); // Add this line
+          }}
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <div
+          className={cn(styles.menu, {
+            [styles.menuVisible]: isMobileMenuVisible,
+          })}
+        >
           <ul>
-            <NavItem href="/" text="Home" />
-            <NavItem href="/about-us" text="About Us" />
+            <NavItem href="/" text="Home" closeMenu={closeMenu}/>
+            <NavItem href="/about-us" text="About Us" closeMenu={closeMenu}/>
           </ul>
         </div>
       </nav>
