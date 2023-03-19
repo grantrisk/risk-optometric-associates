@@ -11,14 +11,18 @@ function NavItem({ href, text }) {
   const isActive = router.asPath === href;
 
   return (
-    <NextLink href={href} className={styles.NextLink}>
-      <span>{text}</span>
+    <NextLink href={href} passHref>
+      <div className={styles.NextLink}>
+        <span>{text}</span>
+      </div>
     </NextLink>
   );
 }
 
 export default function Container(props) {
   const [mounted, setMounted] = useState(false);
+  const [isMobileMenuVisible, setMobileMenuVisible] = useState(false);
+  const [isHamburgerActive, setHamburgerActive] = useState(false); // Add this line
 
   useEffect(() => setMounted(true), []);
 
@@ -28,7 +32,24 @@ export default function Container(props) {
     <>
       <nav className={styles.nav}>
         <Image src={logo} alt="Risk Optometric Associates Logo" height={50} />
-        <div>
+        <button
+          className={cn(styles.hamburger, {
+            [styles.active]: isHamburgerActive, // Add this line
+          })}
+          onClick={() => {
+            setMobileMenuVisible(!isMobileMenuVisible);
+            setHamburgerActive(!isHamburgerActive); // Add this line
+          }}
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <div
+          className={cn(styles.menu, {
+            [styles.menuVisible]: isMobileMenuVisible,
+          })}
+        >
           <ul>
             <NavItem href="/" text="Home" />
             <NavItem href="/about-us" text="About Us" />

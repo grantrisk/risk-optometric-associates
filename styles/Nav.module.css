@@ -6,11 +6,67 @@
   margin: 1rem 2rem;
 }
 
-.NextLink {
+.nav ul {
+  display: flex;
+}
+
+.nav a {
   margin: 0 1rem;
   font-size: 1.2rem;
   text-decoration: none;
   color: black;
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+  z-index: 1001;
+}
+
+.hamburger span {
+  display: block;
+  width: 25px;
+  height: 3px;
+  background-color: black;
+  margin: 4px 0;
+}
+
+.hamburger.active span:nth-child(1) {
+  transform: translateY(5px) rotate(45deg);
+}
+
+.hamburger.active span:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.active span:nth-child(3) {
+  transform: translateY(-5px) rotate(-45deg);
+  position: relative;
+  top: -5px;
+}
+
+.menuVisible {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.95);
+  overflow-y: auto;
+  padding-top: 3rem;
+  z-index: 1000;
+}
+
+.menuVisible ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Footer container */
@@ -81,21 +137,59 @@
 }
 
 @media (max-width: 768px) {
+  .menu {
+    display: flex;
+    justify-content: center;
+  }
+
+  .menu:not(.menuVisible) {
+    display: none;
+  }
+
   .nav {
     margin: 0;
+    padding: 1rem;
   }
 
   .nav ul {
-    display: flex;
     flex-direction: column;
+    gap: 0.5rem;
+    background-color: #fff;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 1rem;
+    width: 80%;
+    height: fit-content;
   }
 
   .nav a {
-    margin: 0.5rem;
-    background-color: #fff;
-    border: 1px solid #8e8e8e;
+    /* margin: 0; */
+    width: 100%;
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: black;
+    display: block;
+    background-color: #f5f5f5;
     border-radius: 5px;
-    padding: 0.5rem;
+    transition: background-color 0.3s;
+  }
+
+  .nav a:hover {
+    background-color: #e0e0e0;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .nav ul {
+    display: none;
+  }
+
+  .menuVisible ul {
+    display: flex;
+    flex-direction: column;
   }
 
   .footerContent {
@@ -121,6 +215,11 @@
 
   .nav img {
     filter: invert(1);
+  }
+
+  .menuVisible ul {
+    background-color: #ffffff;
+    border: 1px solid #fff;
   }
 
   .footer {
