@@ -44,7 +44,9 @@ export default function Container(props) {
   return (
     <>
       <nav className={styles.nav}>
-        <Image src={logo} alt="Risk Optometric Associates Logo" height={50} />
+        <NextLink href="/" passHref className={styles.companyLogo}>
+          <Image src={logo} alt="Risk Optometric Associates Logo" height={50} />
+        </NextLink>
         <button
           className={cn(styles.hamburger, {
             [styles.active]: isHamburgerActive, // Add this line
