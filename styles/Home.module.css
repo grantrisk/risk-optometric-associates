@@ -25,6 +25,7 @@
   color: #fff;
   font-size: 3rem;
   font-weight: 700;
+  line-height: 1.2;
 }
 
 .headSection h1 {
@@ -182,8 +183,13 @@
 }
 
 @media (max-width: 768px) {
+  .headSection {
+    height: 75vh;
+  }
+
   .headSection div {
     font-size: 2rem;
+    line-height: 1.1;
   }
 
   .headSection h1 {
@@ -191,7 +197,8 @@
   }
 
   .headSection div p {
-    font-size: 1rem;
+    margin: 1rem 0;
+    font-size: 1.1rem;
     width: 300px;
   }
 
@@ -204,7 +211,7 @@
     height: 100px;
   }
 
-  .locationSection p{
+  .locationSection p {
     padding: 0 20px;
   }
 
@@ -213,7 +220,8 @@
     height: 100px;
   }
 
-  .location p, .location a {
+  .location p,
+  .location a {
     font-size: 0.7rem;
     margin: 0;
   }
@@ -240,6 +248,17 @@
     margin: 10px 10px 0 0;
     width: 1rem;
     height: 1rem;
+  }
+}
+
+@media (max-width: 380px) {
+  .headSection div {
+    font-size: 1.5rem;
+    line-height: 1;
+  }
+
+  .headSection div p {
+    width: 250px;
   }
 }
 
