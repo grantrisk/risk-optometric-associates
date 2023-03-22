@@ -5,6 +5,45 @@ import { useRouter } from "next/router";
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import logo from "@/public/risk-optometric-associates-horizontal.svg";
+import { FaArrowUp } from "react-icons/fa";
+
+function ScrollToTopButton() {
+  const [isVisible, setIsVisible] = useState(false);
+
+  useEffect(() => {
+    if (typeof document === "undefined") return;
+
+    const handleScroll = () => {
+      const scrollY = typeof document !== "undefined" ? document.body.scrollTop : 0;
+      if (scrollY > 500) {
+        if (!isVisible) setIsVisible(true);
+      } else {
+        if (isVisible) setIsVisible(false);
+      }
+    };
+
+    document.body.addEventListener("scroll", handleScroll);
+    return () => document.body.removeEventListener("scroll", handleScroll);
+  }, [isVisible]);
+
+  const handleClick = () => {
+    setTimeout(() => {
+      if (typeof document !== "undefined") {
+        document.body.scrollTo({ top: 0, behavior: "smooth" });
+      }
+    }, 0);
+  };
+
+  return (
+    <button
+      className={`${styles.scrollToTopButton} ${isVisible ? styles.isVisible : ""}`}
+      onClick={handleClick}
+      style={{ transition: "opacity 0.3s ease-in-out, visibility 0.3s ease-in-out" }}
+    >
+      <FaArrowUp />
+    </button>
+  );
+}
 
 function NavItem({ href, text, closeMenu }) {
   const router = useRouter();
@@ -26,11 +65,10 @@ function NavItem({ href, text, closeMenu }) {
   );
 }
 
-
 export default function Container(props) {
   const [mounted, setMounted] = useState(false);
   const [isMobileMenuVisible, setMobileMenuVisible] = useState(false);
-  const [isHamburgerActive, setHamburgerActive] = useState(false); // Add this line
+  const [isHamburgerActive, setHamburgerActive] = useState(false);
 
   useEffect(() => setMounted(true), []);
 
@@ -49,11 +87,11 @@ export default function Container(props) {
         </NextLink>
         <button
           className={cn(styles.hamburger, {
-            [styles.active]: isHamburgerActive, // Add this line
+            [styles.active]: isHamburgerActive,
           })}
           onClick={() => {
             setMobileMenuVisible(!isMobileMenuVisible);
-            setHamburgerActive(!isHamburgerActive); // Add this line
+            setHamburgerActive(!isHamburgerActive);
           }}
         >
           <span></span>
@@ -66,12 +104,13 @@ export default function Container(props) {
           })}
         >
           <ul>
-            <NavItem href="/" text="Home" closeMenu={closeMenu}/>
-            <NavItem href="/about-us" text="About Us" closeMenu={closeMenu}/>
+            <NavItem href="/" text="Home" closeMenu={closeMenu} />
+            <NavItem href="/about-us" text="About Us" closeMenu={closeMenu} />
           </ul>
         </div>
       </nav>
       <>{children}</>
+      <ScrollToTopButton />
       <footer className={styles.footer}>
         <div className={styles.footerContent}>
           <div className={styles.footerLeft}>
