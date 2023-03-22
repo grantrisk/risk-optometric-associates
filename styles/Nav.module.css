@@ -281,6 +281,11 @@
     border: 1px solid #1e1e1e;
   }
 
+  .scrollToTopButton {
+    /* background-color: #000; */
+    border: 1px solid #ffffff;
+  }
+
   .footer {
     background-color: #000;
   }
