@@ -39,43 +39,10 @@
   color: #c1c1c1;
 }
 
-.insuranceSection {
-  background-color: #f5f5f5;
-  padding: 50px 0;
-}
-
-.insuranceSection h2 {
-  text-align: center;
-  font-size: 2.5rem;
-  font-weight: 700;
-  margin-bottom: 50px;
-}
-
-.insuranceSection p {
-  text-align: center;
-  font-size: 1.5rem;
-  font-weight: 400;
-  margin-bottom: 50px;
-}
-
-.insuranceImages {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.insuranceImages img {
-  width: 300px;
-  height: 150px;
-  margin: 10px;
-  padding: 1rem;
-  border: 1px solid #2b8351;
-  border-radius: 5px;
-  background-color: #fff;
-}
+/* ------- Location Section ------- */
 
 .locationSection {
-  background-color: #fff;
+  background-color: #f5f5f5;
   padding: 50px 0;
 }
 
@@ -119,6 +86,45 @@
   color: #2b8351;
 }
 
+/* ------- Insurance Section ------- */
+
+.insuranceSection {
+  background-color: #fff;
+  padding: 50px 0;
+}
+
+.insuranceSection h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+.insuranceSection p {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+
+.insuranceImages {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.insuranceImages img {
+  width: 300px;
+  height: 150px;
+  margin: 10px;
+  padding: 1rem;
+  border: 1px solid #2b8351;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+/* ------- Form Section ------- */
+
 .formSection {
   background-color: #f5f5f5;
   padding: 50px 0;
@@ -156,6 +162,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .formLink {
@@ -168,6 +175,16 @@
   color: #2b8351;
   align-items: center;
   justify-content: center;
+  width: 300px;
+  min-width: 300px;
+  height: 150px;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+.formLink p {
+  margin: 0;
 }
 
 .formLink:hover {
@@ -177,7 +194,7 @@
 }
 
 .formLink svg {
-  margin: 20px 20px 0 0;
+  margin: 5px 20px 0 0;
   width: 2rem;
   height: 2rem;
 }
@@ -240,14 +257,19 @@
   }
 
   .formLink {
-    font-size: 1rem;
-    width: 80%;
+    /* font-size: 1rem; */
+    /* width: 80%; */
+    height: fit-content;
+    justify-content: space-between;
+  }
+
+  .formLink p {
+    width: 100%;
   }
 
   .formLink svg {
-    margin: 10px 10px 0 0;
-    width: 1rem;
-    height: 1rem;
+    width: 3rem;
+    height: 3rem;
   }
 }
 

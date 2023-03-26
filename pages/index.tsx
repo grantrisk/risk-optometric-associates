@@ -19,10 +19,7 @@ export default function Home() {
     <>
       <Head>
         <title>Risk Optometric Associates</title>
-        <meta
-          name="description"
-          content="Risk Optometrics Associates Eye Care Practice"
-        />
+        <meta name="description" content="Risk Optometrics Associates Eye Care Practice" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -33,34 +30,9 @@ export default function Home() {
               <h1>Risk Optometric</h1>
               <h1>Associates</h1>
               <p>
-                Established for over 20 years, Risk Optometric is a family-owned
-                and operated practice that puts patients first.
+                Established for over 20 years, Risk Optometric is a family-owned and operated
+                practice that puts patients first.
               </p>
-            </div>
-          </div>
-          <div className={styles.insuranceSection}>
-            <h2>
-              <FaWpforms /> Insurance
-            </h2>
-            <p>
-              We accept most major insurance plans including the following
-              listed below. Please call our office to verify your insurance
-              plan.
-            </p>
-            <div className={styles.insuranceImages}>
-              <Image
-                src={blueCross}
-                alt="Blue Cross Blue Shield"
-                height={100}
-              />
-              <Image src={cec} alt="Community Eye Care" height={100} />
-              <Image src={tricare} alt="Tricare" height={100} />
-              <Image src={eye_med} alt="Eye Med" height={100} />
-              <Image src={spectra} alt="Spectra" height={100} />
-              <Image src={superior_vision} alt="Superior Vision" height={100} />
-              <Image src={medicaid} alt="Medicaid" height={100} />
-              <Image src={medicare} alt="Medicare" height={100} />
-              <Image src={humana} alt="Humana" height={100} />
             </div>
           </div>
           <div className={styles.locationSection}>
@@ -68,8 +40,8 @@ export default function Home() {
               <FaMapPin /> Locations
             </h2>
             <p>
-              We have 8 locations in the NC area. Please call the location
-              nearest you to schedule an appointment.
+              We have 8 locations in the NC area. Please call the location nearest you to schedule
+              an appointment.
             </p>
             <div className={styles.location}>
               <ul>
@@ -164,60 +136,79 @@ export default function Home() {
               </ul>
             </div>
           </div>
+          <div className={styles.insuranceSection}>
+            <h2>
+              <FaWpforms /> Insurance
+            </h2>
+            <p>
+              We accept the following insurances in some offices with specific doctors. Please call
+              our office to determine if you plan is accepted by our providers.
+            </p>
+            <div className={styles.insuranceImages}>
+              <Image src={blueCross} alt="Blue Cross Blue Shield" height={100} />
+              <Image src={cec} alt="Community Eye Care" height={100} />
+              <Image src={tricare} alt="Tricare" height={100} />
+              <Image src={eye_med} alt="Eye Med" height={100} />
+              <Image src={spectra} alt="Spectra" height={100} />
+              <Image src={superior_vision} alt="Superior Vision" height={100} />
+              <Image src={medicaid} alt="Medicaid" height={100} />
+              <Image src={medicare} alt="Medicare" height={100} />
+              <Image src={humana} alt="Humana" height={100} />
+            </div>
+          </div>
           <div className={styles.formSection}>
             <h2>
               {" "}
               <FaClipboardList /> Come Prepared
             </h2>
-            <p>
-              Fill out our form and contact us to schedule your appointment.
-            </p>
+            <p>Fill out our form and contact us to schedule your appointment.</p>
             <p>Follow these steps for a faster sign-in process!</p>
             <ol>
               <li>Find the right form(s) for you</li>
               <li>Click on the Form you want</li>
               <li>
-                Download the .pdf file on your computer and print it out or fill
-                it out online
+                Download the .pdf file on your computer and print it out or fill it out online
               </li>
               <li>
-                Fill out the electronic form to the best of your knowledge and
-                we&apos;ll help with the rest
+                Fill out the electronic form to the best of your knowledge and we&apos;ll help with
+                the rest
               </li>
               <li>Bring the forms in with you for your visit</li>
             </ol>
             <div className={styles.formLinks}>
-              <a
-                className={styles.formLink}
-                href="/documents/Tricare_Form.pdf"
-                target="_blank"
-              >
-                <BsFillFileArrowDownFill />
-                Tricare
+              <a className={styles.formLink} href="/documents/Tricare_Form.pdf" target="_blank">
+                <div>
+                  <BsFillFileArrowDownFill />
+                </div>
+                <p>Tricare</p>
               </a>
-              <a
-                className={styles.formLink}
-                href="/documents/Medicare_Form.pdf"
-                target="_blank"
-              >
-                <BsFillFileArrowDownFill />
-                Medicare
+              <a className={styles.formLink} href="/documents/Medicare_Form.pdf" target="_blank">
+                <div>
+                  <BsFillFileArrowDownFill />
+                </div>
+                <p>Medicare</p>
               </a>
               <a
                 className={styles.formLink}
                 href="/documents/Other_Insurance_Form.pdf"
                 target="_blank"
               >
-                <BsFillFileArrowDownFill />
-                Other Insurance
+                <div>
+                  <BsFillFileArrowDownFill />
+                </div>
+                <p>Other Insurance</p>
               </a>
               <a
                 className={styles.formLink}
                 href="/documents/Intermediate_Exam_Form_No_Insurance.pdf"
                 target="_blank"
               >
-                <BsFillFileArrowDownFill />
-                Self Pay (No Insurance)
+                <div>
+                  <BsFillFileArrowDownFill />
+                </div>
+                <p>
+                  Self Pay <br></br>(No Insurance)
+                </p>
               </a>
             </div>
           </div>

@@ -100,64 +100,34 @@
   border-top: 2px solid #8e8e8e;
 }
 
-/* Footer content container */
-.footerContent {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
-}
-
-/* Footer left section */
 .footerLeft {
   flex: 1;
-  max-width: 400px;
+  max-width: 350px;
+  margin-bottom: 1rem;
 }
 
-/* Footer left section headings */
 .footerLeft h3 {
   font-size: 1.5rem;
   font-weight: 700;
   margin-bottom: 10px;
 }
 
-/* Footer left section address */
 .footerLeft p {
   font-size: 1rem;
   margin: 0;
 }
 
-/* Footer left section phone link */
 .footerLeft a {
   color: #333;
   text-decoration: none;
 }
 
 .emergency {
-  color: red;
+  color: rgb(195, 0, 0);
 }
 
 .emergency a {
-  color: red;
-}
-
-/* Footer right section */
-.footerRight {
-  flex: 1;
-  max-width: 400px;
-}
-
-/* Footer right section headings */
-.footerRight h3 {
-  font-size: 1.5rem;
-  font-weight: 700;
-  margin-bottom: 10px;
-}
-
-/* Footer right section hours */
-.footerRight p {
-  font-size: 1rem;
-  margin: 0;
+  color: rgb(195, 0, 0);
 }
 
 @media (max-width: 768px) {
@@ -204,6 +174,7 @@
   }
 
   .nav > .companyLogo {
+    width: fit-content;
     padding: 0;
     background-color: #ffffff;
   }
@@ -230,15 +201,11 @@
     align-items: center;
   }
 
-  .footerLeft {
+  /* .footerLeft {
     margin-bottom: 2rem;
     width: 100%;
-  }
-
-  .footerRight {
-    margin-bottom: 2rem;
-    width: 100%;
-  }
+    max-width: 100%;
+  } */
 }
 
 @media (prefers-color-scheme: dark) {
@@ -251,7 +218,6 @@
   }
 
   .nav > .companyLogo {
-    padding: 0;
     background-color: #000000;
   }
 

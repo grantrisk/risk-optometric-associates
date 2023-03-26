@@ -83,7 +83,7 @@ export default function Container(props) {
     <>
       <nav className={styles.nav}>
         <NextLink href="/" passHref className={styles.companyLogo}>
-          <Image src={logo} alt="Risk Optometric Associates Logo" height={50} />
+          <Image src={logo} alt="Risk Optometric Associates Logo" height={60} />
         </NextLink>
         <button
           className={cn(styles.hamburger, {
@@ -115,38 +115,16 @@ export default function Container(props) {
         <div className={styles.footerContent}>
           <div className={styles.footerLeft}>
             <h3>Risk Optometric Associates</h3>
-            <p>
-              4601 Ramsey St
-              <br />
-              Fayetteville, NC 28311
-            </p>
-            <p>
-              <a href="tel:910-488-4674">(910) 488-4674</a>
-            </p>
-            <br />
             <div className={styles.emergency}>
-              <p>Emergency Number</p>
+              <p>After Hours Emergency Number:</p>
               <p>
                 <a href="tel:910-527-9517">(910) 527-9517</a>
               </p>
             </div>
           </div>
-          <div className={styles.footerRight}>
-            <h3>Hours</h3>
+          <div className={styles.copyright}>
             <p>
-              Monday: 9:00am - 5:00pm
-              <br />
-              Tuesday: 9:00am - 5:00pm
-              <br />
-              Wednesday: 9:00am - 5:00pm
-              <br />
-              Thursday: 9:00am - 5:00pm
-              <br />
-              Friday: 9:00am - 5:00pm
-              <br />
-              Saturday: 9:00am - 5:00pm
-              <br />
-              Sunday: Closed
+              &copy; {new Date().getFullYear()} Risk Optometric Associates. All Rights Reserved.
             </p>
           </div>
         </div>
