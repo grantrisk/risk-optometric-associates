@@ -135,6 +135,16 @@ export default function Home() {
                 </li>
               </ul>
             </div>
+            <div className={styles.locationMap}>
+              <iframe
+                style={{ width: '100%', height: '100%' }}
+                src="https://www.google.com/maps/d/u/0/embed?mid=1DSJ1cflVZieNCskm1KqOGYkOlygT4sA&ehbc=2E312F"
+                width="640"
+                height="480"
+                loading="lazy"
+                title="Risk Optometric Associates Location Map"
+              ></iframe>
+            </div>
           </div>
           <div className={styles.insuranceSection}>
             <h2>
