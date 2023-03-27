@@ -5,7 +5,7 @@ import eye_med from "@/public/images/insurance/eye-med.svg";
 import humana from "@/public/images/insurance/humana.svg";
 import medicaid from "@/public/images/insurance/medicaid.svg";
 import medicare from "@/public/images/insurance/medicare.svg";
-import spectra from "@/public/images/insurance/spectra.svg";
+import spectera from "@/public/images/insurance/spectera.svg";
 import superior_vision from "@/public/images/insurance/superior-vision.svg";
 import tricare from "@/public/images/insurance/tricare.svg";
 import styles from "@/styles/Home.module.css";
@@ -149,7 +149,7 @@ export default function Home() {
               <Image src={cec} alt="Community Eye Care" height={100} />
               <Image src={tricare} alt="Tricare" height={100} />
               <Image src={eye_med} alt="Eye Med" height={100} />
-              <Image src={spectra} alt="Spectra" height={100} />
+              <Image src={spectera} alt="Spectra" height={100} />
               <Image src={superior_vision} alt="Superior Vision" height={100} />
               <Image src={medicaid} alt="Medicaid" height={100} />
               <Image src={medicare} alt="Medicare" height={100} />
