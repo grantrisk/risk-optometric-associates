@@ -38,6 +38,17 @@ export default function Home() {
               exams and eye care to over 200,000 patients in our surrounding communities. We hope
               you join our ever expanding family of patients.
             </p>
+            <div className={styles.youtubeVideo}>
+              <iframe
+                style={{ width: "100%", height: "100%" }}
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/o2KDYWpkZfk"
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen
+              ></iframe>
+            </div>
           </div>
           <div className={styles.ourDoctors}>
             <h1>
