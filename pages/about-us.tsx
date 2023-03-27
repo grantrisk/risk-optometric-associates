@@ -51,63 +51,63 @@ export default function Home() {
             </p>
             <div className={styles.doctorsContainer}>
               <div className={styles.doctor}>
+                <Image src={kentrisk} alt="Dr. Kent J Risk" width={200} height={200} />
                 <div className={styles.doctorInfo}>
                   <h2>Dr. Kent J Risk</h2>
                 </div>
-                <Image src={kentrisk} alt="Dr. Kent J Risk" width={200} height={200} />
               </div>
               <div className={styles.doctor}>
+                <Image src={andrewlovsin} alt="Dr. Andrew J. Lovsin" width={200} height={200} />
                 <div className={styles.doctorInfo}>
                   <h2>Dr. Andrew J. Lovsin</h2>
                 </div>
-                <Image src={andrewlovsin} alt="Dr. Andrew J. Lovsin" width={200} height={200} />
               </div>
               <div className={styles.doctor}>
+                <Image src={anthonywoolet} alt="Dr. Anthony Woolet" width={200} height={200} />
                 <div className={styles.doctorInfo}>
                   <h2>Dr. Anthony Woolet</h2>
                 </div>
-                <Image src={anthonywoolet} alt="Dr. Anthony Woolet" width={200} height={200} />
               </div>
               <div className={styles.doctor}>
+                <Image src={brandichavis} alt="Dr. Brandi Chavis" width={200} height={200} />
                 <div className={styles.doctorInfo}>
                   <h2>Dr. Brandi Chavis</h2>
                 </div>
-                <Image src={brandichavis} alt="Dr. Brandi Chavis" width={200} height={200} />
               </div>
               <div className={styles.doctor}>
-                <div className={styles.doctorInfo}>
-                  <h2>Dr. Carlene Rosado-Martin</h2>
-                </div>
                 <Image
                   src={carlenerosadomartin}
                   alt="Dr. Carlene Rosado-Martin"
                   width={200}
                   height={200}
                 />
+                <div className={styles.doctorInfo}>
+                  <h2>Dr. Carlene Rosado-Martin</h2>
+                </div>
               </div>
               <div className={styles.doctor}>
+                <Image src={glennlikens} alt="Dr. E. Glenn Likens" width={200} height={200} />
                 <div className={styles.doctorInfo}>
                   <h2>Dr. E. Glenn Likens</h2>
                 </div>
-                <Image src={glennlikens} alt="Dr. E. Glenn Likens" width={200} height={200} />
               </div>
               <div className={styles.doctor}>
+                <Image src={jennastoddard} alt="Dr. Jenna E. Stoddard" width={200} height={200} />
                 <div className={styles.doctorInfo}>
                   <h2>Dr. Jenna E. Stoddard</h2>
                 </div>
-                <Image src={jennastoddard} alt="Dr. Jenna E. Stoddard" width={200} height={200} />
               </div>
               <div className={styles.doctor}>
+                <Image src={karenbrown} alt="Dr. Karen G. Brown" width={200} height={200} />
                 <div className={styles.doctorInfo}>
                   <h2>Dr. Karen G. Brown</h2>
                 </div>
-                <Image src={karenbrown} alt="Dr. Karen G. Brown" width={200} height={200} />
               </div>
               <div className={styles.doctor}>
+                <Image src={susanhendrix} alt="Dr. Susan W. Hendrix" width={200} height={200} />
                 <div className={styles.doctorInfo}>
                   <h2>Dr. Susan W. Hendrix</h2>
                 </div>
-                <Image src={susanhendrix} alt="Dr. Susan W. Hendrix" width={200} height={200} />
               </div>
             </div>
           </div>

@@ -286,7 +286,7 @@
 
 @media (prefers-color-scheme: dark) {
   .insuranceSection {
-    background-color: #1f1f1f;
+    background-color: #2b2b2b;
   }
 
   .insuranceSection h2 {
@@ -302,9 +302,8 @@
     background-color: #fff;
   }
 
-  /* for the location section make it a different dark color */
   .locationSection {
-    background-color: #2b2b2b;
+    background-color: #1f1f1f;
   }
 
   .locationSection h2 {
