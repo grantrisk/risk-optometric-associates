@@ -18,7 +18,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Risk Optometric Associates</title>
+        <title>Risk Optometric Associates PA</title>
         <meta name="description" content="Risk Optometrics Associates Eye Care Practice" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
@@ -28,7 +28,7 @@ export default function Home() {
           <div className={styles.headSection}>
             <div>
               <h1>Risk Optometric</h1>
-              <h1>Associates</h1>
+              <h1>Associates PA</h1>
               <p>
                 Established for over 20 years, Risk Optometric is a family-owned and operated
                 practice that puts patients first.
@@ -47,7 +47,7 @@ export default function Home() {
               <ul>
                 <li>
                   <a
-                    href="https://www.google.com/maps?q=7701+S+Raeford+Rd%2C+Fayetteville%2C+NC+28304"
+                    href="https://www.google.com/maps/place/Risk+Optometric+Associates,+PA/@35.0244433,-79.0552085,17z/data=!3m1!4b1!4m6!3m5!1s0x89ab3e52a155d5a5:0x9c73714bf63c55d5!8m2!3d35.0244433!4d-79.0530198!16s%2Fg%2F1v29cx2v"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -58,7 +58,7 @@ export default function Home() {
                 </li>
                 <li>
                   <a
-                    href="https://www.google.com/maps?q=4601+Ramsey+St%2C+Fayetteville%2C+NC+28311"
+                    href="https://www.google.com/maps/place/Risk+Optometric+Associates,+PA/@35.1232899,-78.8869237,17z/data=!3m1!4b1!4m6!3m5!1s0x89ab6dcb471f93fd:0x931eaefd8f0b6026!8m2!3d35.12329!4d-78.882439!16s%2Fg%2F1tdjxwqw"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -69,7 +69,7 @@ export default function Home() {
                 </li>
                 <li>
                   <a
-                    href="https://www.google.com/maps?q=1550+Skibo+Rd%2C+Fayetteville%2C+NC+28303"
+                    href="https://www.google.com/maps/place/Risk+Optometric+Associates,+PA/@35.0815221,-78.9588925,17z/data=!3m1!4b1!4m6!3m5!1s0x89ab6b142d902c5b:0x39b6d256d8d44429!8m2!3d35.0815221!4d-78.9567038!16s%2Fg%2F1v9lcnb4"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -80,7 +80,7 @@ export default function Home() {
                 </li>
                 <li>
                   <a
-                    href="https://www.google.com/maps?q=250+Highlands+Square+Dr%2C+Hendersonville%2C+NC+28792"
+                    href="https://www.google.com/maps/place/Risk+Optometric+Associates,+PA/@35.3489201,-82.4398423,17z/data=!3m1!4b1!4m6!3m5!1s0x8859e9c98405ed6f:0x354c915e067dbd03!8m2!3d35.3489201!4d-82.4376536!16s%2Fg%2F1vxzbbfz"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -91,7 +91,7 @@ export default function Home() {
                 </li>
                 <li>
                   <a
-                    href="https://www.google.com/maps?q=601+Souter+Pl%2C+Fort+Bragg%2C+NC+28307"
+                    href="https://www.google.com/maps/place/Risk+Optometric+Associates,+PA/@35.1569351,-78.9795608,17z/data=!3m1!4b1!4m6!3m5!1s0x89ab69818cc7004f:0xee9778c77fde0fdd!8m2!3d35.1569351!4d-78.9773721!16s%2Fg%2F12642hwxs"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -102,7 +102,7 @@ export default function Home() {
                 </li>
                 <li>
                   <a
-                    href="https://www.google.com/maps?q=3030+N+Main+St%2C+Hope+Mills%2C+NC+28348"
+                    href="https://www.google.com/maps/place/Risk+Optometric+Associates,+PA/@34.9801747,-78.967232,17z/data=!4m10!1m2!2m1!1sRisk+Optometric+3030+N+Main+St,+Hope+Mills,+NC+28348!3m6!1s0x89ab142f2561648f:0xb95e21ca51083ad3!8m2!3d34.9799568!4d-78.9644169!15sCjRSaXNrIE9wdG9tZXRyaWMgMzAzMCBOIE1haW4gU3QsIEhvcGUgTWlsbHMsIE5DIDI4MzQ4IgOIAQGSAQtvcHRvbWV0cmlzdOABAA!16s%2Fg%2F1w2y_9l5"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -113,7 +113,7 @@ export default function Home() {
                 </li>
                 <li>
                   <a
-                    href="https://www.google.com/maps?q=2025+N+Marine+Blvd%2C+Jacksonville%2C+NC+28546"
+                    href="https://www.google.com/maps/place/Risk+Optometric+Associates,+PA/@34.7797303,-77.3948936,17z/data=!4m10!1m2!2m1!1sRisk+Optometric+2025+N+Marine+Blvd,+Jacksonville,+NC+28546!3m6!1s0x89a910885d3e9f2f:0x68f793631288bb12!8m2!3d34.7794336!4d-77.3928589!15sCjpSaXNrIE9wdG9tZXRyaWMgMjAyNSBOIE1hcmluZSBCbHZkLCBKYWNrc29udmlsbGUsIE5DIDI4NTQ2IgOIAQGSAQtvcHRvbWV0cmlzdOABAA!16s%2Fg%2F1tfrc0y5"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -124,7 +124,7 @@ export default function Home() {
                 </li>
                 <li>
                   <a
-                    href="https://www.google.com/maps?q=250+Turner+St%2C+Aberdeen%2C+NC+28315"
+                    href="https://www.google.com/maps/place/Risk+Optometric+Associates,+PA/@35.1597615,-79.4263226,17z/data=!3m1!4b1!4m6!3m5!1s0x8854b4f632ce3759:0x7fa669b685765d17!8m2!3d35.1597615!4d-79.4241339!16s%2Fg%2F11ckr_nf68"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -137,7 +137,7 @@ export default function Home() {
             </div>
             <div className={styles.locationMap}>
               <iframe
-                style={{ width: '100%', height: '100%' }}
+                style={{ width: "100%", height: "100%" }}
                 src="https://www.google.com/maps/d/u/0/embed?mid=1DSJ1cflVZieNCskm1KqOGYkOlygT4sA&ehbc=2E312F"
                 width="640"
                 height="480"

@@ -117,7 +117,7 @@ export default function Container(props) {
       <footer className={styles.footer}>
         <div className={styles.footerContent}>
           <div className={styles.footerLeft}>
-            <h3>Risk Optometric Associates</h3>
+            <h3>Risk Optometric Associates PA</h3>
             <div className={styles.emergency}>
               <p>After Hours Emergency Number:</p>
               <p>
@@ -126,7 +126,8 @@ export default function Container(props) {
             </div>
             <div className={styles.copyright}>
               <p>
-                &copy; {new Date().getFullYear()} Risk Optometric Associates. All Rights Reserved.
+                &copy; {new Date().getFullYear()} Risk Optometric Associates PA. All Rights
+                Reserved.
               </p>
             </div>
           </div>
