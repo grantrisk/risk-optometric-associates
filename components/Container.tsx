@@ -6,6 +6,8 @@ import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import logo from "@/public/risk-optometric-associates-horizontal.svg";
 import { FaArrowUp } from "react-icons/fa";
+import instagramLogo from "@/public/images/icons/instagram.svg";
+import facebookLogo from "@/public/images/icons/facebook.svg";
 
 function ScrollToTopButton() {
   const [isVisible, setIsVisible] = useState(false);
@@ -106,6 +108,7 @@ export default function Container(props) {
           <ul>
             <NavItem href="/" text="Home" closeMenu={closeMenu} />
             <NavItem href="/about-us" text="About Us" closeMenu={closeMenu} />
+            <NavItem href="/review" text="Leave A Review" closeMenu={closeMenu} />
           </ul>
         </div>
       </nav>
@@ -121,11 +124,25 @@ export default function Container(props) {
                 <a href="tel:910-527-9517">(910) 527-9517</a>
               </p>
             </div>
+            <div className={styles.copyright}>
+              <p>
+                &copy; {new Date().getFullYear()} Risk Optometric Associates. All Rights Reserved.
+              </p>
+            </div>
           </div>
-          <div className={styles.copyright}>
-            <p>
-              &copy; {new Date().getFullYear()} Risk Optometric Associates. All Rights Reserved.
-            </p>
+          <div className={styles.footerRight}>
+            <div className={styles.social}>
+              <NextLink
+                href="https://www.instagram.com/riskoptometricassociates/"
+                passHref
+                target="_blank"
+              >
+                <Image src={instagramLogo} alt="Risk Optometric Associates Instagram" height={50} />
+              </NextLink>
+              <NextLink href="https://www.facebook.com/nceyedocs.roa" passHref target="_blank">
+                <Image src={facebookLogo} alt="Risk Optometric Associates Facebook" height={50} />
+              </NextLink>
+            </div>
           </div>
         </div>
       </footer>

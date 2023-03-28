@@ -1,0 +1,147 @@
+/* ------- Head Section ------- */
+
+.headSection {
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px 0;
+}
+
+.headSection p {
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 400;
+  margin: 1rem 0;
+}
+
+.headSection ol {
+  margin: 0;
+  padding-left: 20px;
+  color: #333;
+  font-size: 1.3rem;
+  line-height: 1.5;
+  list-style-position: inside;
+}
+
+.headSection li {
+  margin-bottom: 10px;
+}
+
+.headSection li:last-child {
+  margin-bottom: 0;
+}
+
+/* ------- Location Section ------- */
+
+.locationSection {
+  background-color: #fff;
+  padding: 50px 0;
+}
+
+.locationSection h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+.locationSection p {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin: 0;
+}
+
+.locationSection p:first-child {
+  margin-bottom: 50px;
+}
+
+.location ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.location li {
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  border: 1px solid #2b8351;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.location li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+}
+
+@media (max-width: 768px) {
+  .locationSection p {
+    padding: 0 20px;
+  }
+
+  .location li {
+    width: 150px;
+    height: 100px;
+  }
+
+  .location li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+  }
+
+  .location li a p {
+    font-size: 0.7rem;
+    margin: 0;
+  }
+
+  .location li a p:first-child {
+    margin-bottom: 10px;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .headSection {
+    background-color: #2b2b2b;
+  }
+
+  .headSection p {
+    color: #fff;
+  }
+
+    .headSection ol {
+        color: #fff;
+    }
+
+  .locationSection {
+    background-color: #1f1f1f;
+  }
+
+  .locationSection h2 {
+    color: #fff;
+  }
+
+  .locationSection p {
+    color: #fff;
+  }
+
+  .location li {
+    border: 1px solid #fff;
+  }
+}

@@ -87,10 +87,10 @@
 }
 
 .locationMap {
-  width: 100%;
-  max-width: 800px;
+  width: 80%;
+  /* max-width: 800px; */
   height: 450px;
-  margin: 0 auto;
+  margin: 1rem auto;
   overflow: hidden;
   border: 1px solid #ccc;
   border-radius: 8px;
@@ -267,8 +267,6 @@
   }
 
   .formLink {
-    /* font-size: 1rem; */
-    /* width: 80%; */
     height: fit-content;
     justify-content: space-between;
   }
@@ -280,6 +278,10 @@
   .formLink svg {
     width: 3rem;
     height: 3rem;
+  }
+
+  .locationMap {
+    width: 90%;
   }
 }
 
