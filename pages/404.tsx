@@ -6,11 +6,8 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Risk Optometric Associates</title>
-        <meta
-          name="description"
-          content="Risk Optometrics Associates Eye Care Practice"
-        />
+        <title>Risk Optometric Associates, PA</title>
+        <meta name="description" content="Risk Optometrics Associates Eye Care Practice" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
