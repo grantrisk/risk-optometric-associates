@@ -18,7 +18,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Risk Optometric Associates PA</title>
+        <title>Risk Optometric Associates, PA</title>
         <meta name="description" content="Risk Optometrics Associates Eye Care Practice" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
@@ -28,7 +28,7 @@ export default function Home() {
           <div className={styles.headSection}>
             <div>
               <h1>Risk Optometric</h1>
-              <h1>Associates PA</h1>
+              <h1>Associates, PA</h1>
               <p>
                 Established for over 20 years, Risk Optometric is a family-owned and operated
                 practice that puts patients first.
