@@ -136,6 +136,10 @@
   color: rgb(195, 0, 0);
 }
 
+.nonEmergency {
+  padding-top: 1rem;
+}
+
 .copyright {
   margin-top: 1rem;
 }
@@ -218,7 +222,8 @@
     flex-direction: column;
   }
 
-  .footerLeft, .footerRight {
+  .footerLeft,
+  .footerRight {
     max-width: 100%;
   }
 }
@@ -269,5 +274,9 @@
 
   .footer {
     background-color: #000;
+  }
+
+  .nonEmergency a {
+    color: #ffffff;
   }
 }

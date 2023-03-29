@@ -124,6 +124,14 @@ export default function Container(props) {
                 <a href="tel:910-527-9517">(910) 527-9517</a>
               </p>
             </div>
+            <div className={styles.nonEmergency}>
+              <p>For non-emergency questions, please contact us at:</p>
+              <p>
+                <a href="mailto:nceyedocs.com?subject=Non-emergency%20Question&amp;body=Dear%20Team,%0D%0A%0D%0APlease%20find%20my%20non-emergency%20question%20below:%0D%0A%0D%0A[Your%20question%20here]%0D%0A%0D%0AThank%20you.">
+                  nceyedocs.com
+                </a>
+              </p>
+            </div>
             <div className={styles.copyright}>
               <p>
                 &copy; {new Date().getFullYear()} Risk Optometric Associates, PA. All Rights

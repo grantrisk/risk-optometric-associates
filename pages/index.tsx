@@ -30,8 +30,9 @@ export default function Home() {
               <h1>Risk Optometric</h1>
               <h1>Associates, PA</h1>
               <p>
-                Established for over 20 years, Risk Optometric is a family-owned and operated
-                practice that puts patients first.
+                Established for over 20 years, Risk Optometric is a family-owned optometric
+                practice. We provide comprehensive eye exams for glasses, contacts, and the
+                treatment of eye diseases.
               </p>
             </div>
           </div>
@@ -144,26 +145,6 @@ export default function Home() {
                 loading="lazy"
                 title="Risk Optometric Associates Location Map"
               ></iframe>
-            </div>
-          </div>
-          <div className={styles.insuranceSection}>
-            <h2>
-              <FaWpforms /> Insurance
-            </h2>
-            <p>
-              We accept the following insurances in some offices with specific doctors. Please call
-              our office to determine if you plan is accepted by our providers.
-            </p>
-            <div className={styles.insuranceImages}>
-              <Image src={blueCross} alt="Blue Cross Blue Shield" height={100} />
-              <Image src={cec} alt="Community Eye Care" height={100} />
-              <Image src={tricare} alt="Tricare" height={100} />
-              <Image src={eye_med} alt="Eye Med" height={100} />
-              <Image src={spectera} alt="Spectra" height={100} />
-              <Image src={superior_vision} alt="Superior Vision" height={100} />
-              <Image src={medicaid} alt="Medicaid" height={100} />
-              <Image src={medicare} alt="Medicare" height={100} />
-              <Image src={humana} alt="Humana" height={100} />
             </div>
           </div>
           <div className={styles.formSection}>
