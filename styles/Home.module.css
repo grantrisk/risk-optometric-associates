@@ -178,6 +178,8 @@
   }
 
   .headSection div {
+    top: 30%;
+    left: 5%;
     font-size: 2rem;
     line-height: 1.1;
   }
@@ -189,7 +191,7 @@
   .headSection div p {
     margin: 1rem 0;
     font-size: 1.1rem;
-    width: 300px;
+    width: 100%;
   }
 
   .locationSection p {
@@ -241,12 +243,19 @@
 
 @media (max-width: 380px) {
   .headSection div {
-    font-size: 1.5rem;
-    line-height: 1;
+    top: 10%;
+    left: 5%;
+    font-size: 2rem;
+    line-height: 1.1;
   }
+}
 
-  .headSection div p {
-    width: 250px;
+@media (max-width: 290px) {
+  .headSection div {
+    top: 10%;
+    left: 5%;
+    font-size: 1.5rem;
+    line-height: 1.1;
   }
 }
 
