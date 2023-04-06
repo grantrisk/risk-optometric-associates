@@ -1,5 +1,10 @@
 # Risk Optometric Associates, PA Website
 
+<div style="display: flex;">
+  <img src="images/roa-screenshot.png" alt="Screenshot of the website" style="border: 2px solid #000; border-radius: 10px; max-height: 400px; width: auto;">
+  <img src="images/roa-screenshot-phone.png" alt="Screenshot of the website" style="border: 2px solid #000; border-radius: 10px; max-height: 400px; width: auto;">
+</div>
+
 This repository contains the source code for a Next.js website built for a freelance project. The website is for an optometric practice and is deployed to Vercel. It displays essential information about the practice, such as locations, forms, mission, doctors, and a review section for specific locations.
 
 ## Table of Contents
@@ -24,7 +29,7 @@ To run this project locally, follow these steps:
 
 1. Clone the repository:
 
-```bash
+````bash
 gh repo clone grantrisk/risk-optometric-associates
 cd optometric-practice-website
 
@@ -32,7 +37,7 @@ cd optometric-practice-website
 
 ```bash
 npm install
-```
+````
 
 3. Run the development server:
 
