@@ -26,9 +26,10 @@ To run this project locally, follow these steps:
 
 1. Clone the repository:
 
-````bash
+```bash
 gh repo clone grantrisk/risk-optometric-associates
 cd optometric-practice-website
+```
 
 2. Install dependencies:
 
