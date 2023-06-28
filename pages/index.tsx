@@ -41,7 +41,7 @@ export default function Home() {
               <FaMapPin /> Locations
             </h2>
             <p>
-              We have 8 locations in the NC area. Please call the location nearest you to schedule
+              We have 6 locations in the NC area. Please call the location nearest you to schedule
               an appointment.
             </p>
             <div className={styles.location}>
