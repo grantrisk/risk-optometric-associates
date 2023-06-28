@@ -59,17 +59,6 @@ export default function Home() {
                 </li>
                 <li>
                   <a
-                    href="https://www.google.com/maps/place/Risk+Optometric+Associates,+PA/@35.1232899,-78.8869237,17z/data=!3m1!4b1!4m6!3m5!1s0x89ab6dcb471f93fd:0x931eaefd8f0b6026!8m2!3d35.12329!4d-78.882439!16s%2Fg%2F1tdjxwqw"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <p>4601 Ramsey St</p>
-                    <p>Fayetteville, NC 28311</p>
-                  </a>
-                  <a href="tel:9104884674">(910) 488-4674</a>
-                </li>
-                <li>
-                  <a
                     href="https://www.google.com/maps/place/Risk+Optometric+Associates,+PA/@35.0815221,-78.9588925,17z/data=!3m1!4b1!4m6!3m5!1s0x89ab6b142d902c5b:0x39b6d256d8d44429!8m2!3d35.0815221!4d-78.9567038!16s%2Fg%2F1v9lcnb4"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -103,17 +92,6 @@ export default function Home() {
                 </li>
                 <li>
                   <a
-                    href="https://www.google.com/maps/place/Risk+Optometric+Associates,+PA/@34.9801747,-78.967232,17z/data=!4m10!1m2!2m1!1sRisk+Optometric+3030+N+Main+St,+Hope+Mills,+NC+28348!3m6!1s0x89ab142f2561648f:0xb95e21ca51083ad3!8m2!3d34.9799568!4d-78.9644169!15sCjRSaXNrIE9wdG9tZXRyaWMgMzAzMCBOIE1haW4gU3QsIEhvcGUgTWlsbHMsIE5DIDI4MzQ4IgOIAQGSAQtvcHRvbWV0cmlzdOABAA!16s%2Fg%2F1w2y_9l5"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <p>3030 N Main St</p>
-                    <p>Hope Mills, NC 28348</p>
-                  </a>
-                  <a href="tel:9104246413">(910) 424-6413</a>
-                </li>
-                <li>
-                  <a
                     href="https://www.google.com/maps/place/Risk+Optometric+Associates,+PA/@34.7797303,-77.3948936,17z/data=!4m10!1m2!2m1!1sRisk+Optometric+2025+N+Marine+Blvd,+Jacksonville,+NC+28546!3m6!1s0x89a910885d3e9f2f:0x68f793631288bb12!8m2!3d34.7794336!4d-77.3928589!15sCjpSaXNrIE9wdG9tZXRyaWMgMjAyNSBOIE1hcmluZSBCbHZkLCBKYWNrc29udmlsbGUsIE5DIDI4NTQ2IgOIAQGSAQtvcHRvbWV0cmlzdOABAA!16s%2Fg%2F1tfrc0y5"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -133,6 +111,28 @@ export default function Home() {
                     <p>Aberdeen, NC 28315</p>
                   </a>
                   <a href="tel:9106951034">(910) 695-1034</a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.google.com/maps/place/Risk+Optometric+Associates,+PA/@35.1232899,-78.8869237,17z/data=!3m1!4b1!4m6!3m5!1s0x89ab6dcb471f93fd:0x931eaefd8f0b6026!8m2!3d35.12329!4d-78.882439!16s%2Fg%2F1tdjxwqw"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <p>4601 Ramsey St</p>
+                    <p>Fayetteville, NC 28311</p>
+                  </a>
+                  <a>Permanently Closed</a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.google.com/maps/place/Risk+Optometric+Associates,+PA/@34.9801747,-78.967232,17z/data=!4m10!1m2!2m1!1sRisk+Optometric+3030+N+Main+St,+Hope+Mills,+NC+28348!3m6!1s0x89ab142f2561648f:0xb95e21ca51083ad3!8m2!3d34.9799568!4d-78.9644169!15sCjRSaXNrIE9wdG9tZXRyaWMgMzAzMCBOIE1haW4gU3QsIEhvcGUgTWlsbHMsIE5DIDI4MzQ4IgOIAQGSAQtvcHRvbWV0cmlzdOABAA!16s%2Fg%2F1w2y_9l5"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <p>3030 N Main St</p>
+                    <p>Hope Mills, NC 28348</p>
+                  </a>
+                  <a>Permanently Closed</a>
                 </li>
               </ul>
             </div>

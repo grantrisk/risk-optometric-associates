@@ -47,16 +47,6 @@ export default function Home() {
                 </li>
                 <li>
                   <a
-                    href="https://g.page/r/CSZgC4_9rh6TEAI/review"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <p>4601 Ramsey St</p>
-                    <p>Fayetteville, NC 28311</p>
-                  </a>
-                </li>
-                <li>
-                  <a
                     href="https://g.page/r/CSlE1NhW0rY5EAI/review"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -83,16 +73,6 @@ export default function Home() {
                   >
                     <p>601 Souter Pl</p>
                     <p>Fort Bragg, NC 28307</p>
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://g.page/r/CdM6CFHKIV65EAI/review"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <p>3030 N Main St</p>
-                    <p>Hope Mills, NC 28348</p>
                   </a>
                 </li>
                 <li>

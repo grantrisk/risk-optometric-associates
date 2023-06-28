@@ -96,6 +96,10 @@
   border-radius: 8px;
 }
 
+.location li a:not([href]) {
+  color: #FF6C6C; /* Adjust color as needed */
+}
+
 /* ------- Form Section ------- */
 
 .formSection {
