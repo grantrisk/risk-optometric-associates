@@ -77,7 +77,7 @@ export default function Home() {
                     <p>250 Highlands Square Dr</p>
                     <p>Hendersonville, NC 28792</p>
                   </a>
-                  <a href="tel:8286967898">(828) 696-7898</a>
+                  <a href="tel:8283820412">(828) 382-0412</a>
                 </li>
                 <li>
                   <a
