@@ -139,7 +139,7 @@ export default function Home() {
                 </li>
               </ul>
 
-              {/*  TO BE DELETED WHEN PHONE LINES ARE BACK UP */}
+              {/*  TO BE DELETED WHEN PHONE LINES ARE BACK UP  */}
               <div className={styles.phoneDown}>
                 <p>Phone Lines Temporarily Down</p>
                 <p>
