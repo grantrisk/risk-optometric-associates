@@ -59,17 +59,18 @@ export default function Home() {
                 </li>
                 <li>
                   <a
-                    href="https://www.google.com/maps/place/Risk+Optometric+Associates,+PA/@35.0815221,-78.9588925,17z/data=!3m1!4b1!4m6!3m5!1s0x89ab6b142d902c5b:0x39b6d256d8d44429!8m2!3d35.0815221!4d-78.9567038!16s%2Fg%2F1v9lcnb4"
-                    target="_blank"
-                    rel="noopener noreferrer"
+                      href="https://www.google.com/maps/place/Risk+Optometric+Associates,+PA/@35.0815221,-78.9588925,17z/data=!3m1!4b1!4m6!3m5!1s0x89ab6b142d902c5b:0x39b6d256d8d44429!8m2!3d35.0815221!4d-78.9567038!16s%2Fg%2F1v9lcnb4"
+                      target="_blank"
+                      rel="noopener noreferrer"
                   >
                     <p>1550 Skibo Rd</p>
                     <p>Fayetteville, NC 28303</p>
                   </a>
-                  <a href="tel:9109732366">(910) 973-2366</a>
+                  {/*<a href="tel:9109732366">(910) 973-2366</a>*/}
+                  <p>Phone Lines Temporarily Down</p>
                 </li>
                 <li>
-                  <a
+                <a
                     href="https://www.google.com/maps/place/Risk+Optometric+Associates,+PA/@35.3489201,-82.4398423,17z/data=!3m1!4b1!4m6!3m5!1s0x8859e9c98405ed6f:0x354c915e067dbd03!8m2!3d35.3489201!4d-82.4376536!16s%2Fg%2F1vxzbbfz"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -92,17 +93,18 @@ export default function Home() {
                 </li>
                 <li>
                   <a
-                    href="https://www.google.com/maps/place/Risk+Optometric+Associates,+PA/@34.7797303,-77.3948936,17z/data=!4m10!1m2!2m1!1sRisk+Optometric+2025+N+Marine+Blvd,+Jacksonville,+NC+28546!3m6!1s0x89a910885d3e9f2f:0x68f793631288bb12!8m2!3d34.7794336!4d-77.3928589!15sCjpSaXNrIE9wdG9tZXRyaWMgMjAyNSBOIE1hcmluZSBCbHZkLCBKYWNrc29udmlsbGUsIE5DIDI4NTQ2IgOIAQGSAQtvcHRvbWV0cmlzdOABAA!16s%2Fg%2F1tfrc0y5"
-                    target="_blank"
-                    rel="noopener noreferrer"
+                      href="https://www.google.com/maps/place/Risk+Optometric+Associates,+PA/@34.7797303,-77.3948936,17z/data=!4m10!1m2!2m1!1sRisk+Optometric+2025+N+Marine+Blvd,+Jacksonville,+NC+28546!3m6!1s0x89a910885d3e9f2f:0x68f793631288bb12!8m2!3d34.7794336!4d-77.3928589!15sCjpSaXNrIE9wdG9tZXRyaWMgMjAyNSBOIE1hcmluZSBCbHZkLCBKYWNrc29udmlsbGUsIE5DIDI4NTQ2IgOIAQGSAQtvcHRvbWV0cmlzdOABAA!16s%2Fg%2F1tfrc0y5"
+                      target="_blank"
+                      rel="noopener noreferrer"
                   >
                     <p>2025 N Marine Blvd</p>
                     <p>Jacksonville, NC 28546</p>
                   </a>
-                  <a href="tel:9109371297">(910) 937-1297</a>
+                  {/*<a href="tel:9109371297">(910) 937-1297</a>*/}
+                  <p>Phone Lines Temporarily Down</p>
                 </li>
                 <li>
-                  <a
+                <a
                     href="https://www.google.com/maps/place/Risk+Optometric+Associates,+PA/@35.1597615,-79.4263226,17z/data=!3m1!4b1!4m6!3m5!1s0x8854b4f632ce3759:0x7fa669b685765d17!8m2!3d35.1597615!4d-79.4241339!16s%2Fg%2F11ckr_nf68"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -110,7 +112,8 @@ export default function Home() {
                     <p>250 Turner St</p>
                     <p>Aberdeen, NC 28315</p>
                   </a>
-                  <a href="tel:9106951034">(910) 695-1034</a>
+                  {/*<a href="tel:9106951034">(910) 695-1034</a>*/}
+                  <p>Phone Lines Temporarily Down</p>
                 </li>
                 <li>
                   <a
@@ -135,6 +138,17 @@ export default function Home() {
                   <a>Permanently Closed</a>
                 </li>
               </ul>
+
+              {/*  TO BE DELETED WHEN PHONE LINES ARE BACK UP */}
+              <div className={styles.phoneDown}>
+                <p>Phone Lines Temporarily Down</p>
+                <p>
+                  We are sorry for the inconvenience, but our phone lines are down for repair.
+                  We are not sure when they will be up and running.
+                  Please email us at <a href="mailto:kentrisk@nceyedocs.com">kentrisk@nceyedocs.com</a> and we will
+                  communicate with you via email.
+                </p>
+              </div>
             </div>
             <div className={styles.locationMap}>
               <iframe

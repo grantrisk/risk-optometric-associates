@@ -88,7 +88,6 @@
 
 .locationMap {
   width: 80%;
-  /* max-width: 800px; */
   height: 450px;
   margin: 1rem auto;
   overflow: hidden;
@@ -97,7 +96,32 @@
 }
 
 .location li a:not([href]) {
-  color: #FF6C6C; /* Adjust color as needed */
+  color: #FF6C6C;
+}
+
+/*TO BE DELETED WHEN PHONE LINES ARE BACK UP*/
+.location li>p {
+  font-size: 1rem;
+  color: #006280;
+}
+
+.phoneDown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+  border: 1px solid #006280;
+  width: 80%;
+  padding: 20px;
+}
+
+.phoneDown p {
+    padding: 0 20px;
+}
+
+.phoneDown a {
+  color: #006280;
 }
 
 /* ------- Form Section ------- */
