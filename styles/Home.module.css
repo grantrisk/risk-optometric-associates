@@ -103,6 +103,7 @@
 .location li>p {
   font-size: 1rem;
   color: #006280;
+  margin: 0;
 }
 
 .phoneDown {
@@ -237,6 +238,11 @@
     margin: 0;
   }
 
+  /*TO BE DELETED WHEN PHONE LINES ARE BACK UP*/
+  .location li>p {
+    font-size: 0.7rem;
+  }
+
   .formSection p {
     font-size: 1.5rem;
     padding: 0 20px;
@@ -302,6 +308,15 @@
 
   .location li {
     border: 1px solid #fff;
+  }
+
+  /*TO BE DELETED WHEN PHONE LINES ARE BACK UP*/
+  .location li>p {
+    color: #01a6d7;
+  }
+
+  .phoneDown a {
+    color: #01a6d7;
   }
 
   .formSection {
