@@ -66,8 +66,7 @@ export default function Home() {
                     <p>1550 Skibo Rd</p>
                     <p>Fayetteville, NC 28303</p>
                   </a>
-                  {/*<a href="tel:9109732366">(910) 973-2366</a>*/}
-                  <p>Phone Lines Temporarily Down</p>
+                  <a href="tel:9109732366">(910) 973-2366</a>
                 </li>
                 <li>
                 <a
