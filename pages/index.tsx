@@ -137,7 +137,7 @@ export default function Home() {
               </ul>
 
               {/*  TO BE DELETED WHEN PHONE LINES ARE BACK UP  */}
-              <div className={styles.phoneDown}>
+              {/*<div className={styles.phoneDown}>
                 <p>Phone Lines Temporarily Down</p>
                 <p>
                   We are sorry for the inconvenience, but our phone lines are down for repair.
@@ -145,7 +145,7 @@ export default function Home() {
                   Please email us at <a href="mailto:kentrisk@nceyedocs.com">kentrisk@nceyedocs.com</a> and we will
                   communicate with you via email.
                 </p>
-              </div>
+              </div>*/}
             </div>
             <div className={styles.locationMap}>
               <iframe
