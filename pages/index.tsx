@@ -99,7 +99,7 @@ export default function Home() {
                     <p>2025 N Marine Blvd</p>
                     <p>Jacksonville, NC 28546</p>
                   </a>
-                  <a href="tel:9109371296">(910) 937-1296</a>
+                  <a href="tel:9109371297">(910) 937-1297</a>
                 </li>
                 <li>
                 <a
