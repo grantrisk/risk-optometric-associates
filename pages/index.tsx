@@ -99,8 +99,7 @@ export default function Home() {
                     <p>2025 N Marine Blvd</p>
                     <p>Jacksonville, NC 28546</p>
                   </a>
-                  {/*<a href="tel:9109371297">(910) 937-1297</a>*/}
-                  <p>Phone Lines Temporarily Down</p>
+                  <a href="tel:9109371296">(910) 937-1296</a>
                 </li>
                 <li>
                 <a
@@ -111,8 +110,7 @@ export default function Home() {
                     <p>250 Turner St</p>
                     <p>Aberdeen, NC 28315</p>
                   </a>
-                  {/*<a href="tel:9106951034">(910) 695-1034</a>*/}
-                  <p>Phone Lines Temporarily Down</p>
+                  <a href="tel:9106950750">(910) 695-0750</a>
                 </li>
                 <li>
                   <a
