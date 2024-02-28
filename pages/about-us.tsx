@@ -1,10 +1,8 @@
 import Container from "@/components/Container";
 import andrewlovsin from "@/public/images/doctors/andrewlovsin.webp";
-import anthonywoolet from "@/public/images/doctors/anthonywoolet.webp";
 import brandichavis from "@/public/images/doctors/brandichavis.webp";
 import carlenerosadomartin from "@/public/images/doctors/carlenerosadomartin.webp";
 import glennlikens from "@/public/images/doctors/glennlikens.webp";
-import jennastoddard from "@/public/images/doctors/jennastoddard.webp";
 import karenbrown from "@/public/images/doctors/karenbrown.png";
 import kentrisk from "@/public/images/doctors/kentrisk.webp";
 import susanhendrix from "@/public/images/doctors/susanhendrix.webp";
@@ -75,12 +73,6 @@ export default function Home() {
                 </div>
               </div>
               <div className={styles.doctor}>
-                <Image src={anthonywoolet} alt="Dr. Anthony Woolet" width={200} height={200} />
-                <div className={styles.doctorInfo}>
-                  <h2>Dr. Anthony Woolet</h2>
-                </div>
-              </div>
-              <div className={styles.doctor}>
                 <Image src={brandichavis} alt="Dr. Brandi Chavis" width={200} height={200} />
                 <div className={styles.doctorInfo}>
                   <h2>Dr. Brandi Chavis</h2>
@@ -101,12 +93,6 @@ export default function Home() {
                 <Image src={glennlikens} alt="Dr. E. Glenn Likens" width={200} height={200} />
                 <div className={styles.doctorInfo}>
                   <h2>Dr. E. Glenn Likens</h2>
-                </div>
-              </div>
-              <div className={styles.doctor}>
-                <Image src={jennastoddard} alt="Dr. Jenna E. Stoddard" width={200} height={200} />
-                <div className={styles.doctorInfo}>
-                  <h2>Dr. Jenna E. Stoddard</h2>
                 </div>
               </div>
               <div className={styles.doctor}>
