@@ -19,7 +19,10 @@ export default function Home() {
     <>
       <Head>
         <title>Risk Optometric Associates, PA</title>
-        <meta name="description" content="Risk Optometrics Associates Eye Care Practice" />
+        <meta
+          name="description"
+          content="Risk Optometrics Associates Eye Care Practice"
+        />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -30,9 +33,9 @@ export default function Home() {
               <h1>Risk Optometric</h1>
               <h1>Associates, PA</h1>
               <p>
-                Established for over 20 years, Risk Optometric is a family-owned optometric
-                practice. We provide comprehensive eye exams for glasses, contacts, and the
-                treatment of eye diseases.
+                Established for over 20 years, Risk Optometric is a family-owned
+                optometric practice. We provide comprehensive eye exams for
+                glasses, contacts, and the treatment of eye diseases.
               </p>
             </div>
           </div>
@@ -41,8 +44,8 @@ export default function Home() {
               <FaMapPin /> Locations
             </h2>
             <p>
-              We have 6 locations in the NC area. Please call the location nearest you to schedule
-              an appointment.
+              We have 6 locations in the NC area. Please call the location
+              nearest you to schedule an appointment.
             </p>
             <div className={styles.location}>
               <ul>
@@ -59,9 +62,9 @@ export default function Home() {
                 </li>
                 <li>
                   <a
-                      href="https://www.google.com/maps/place/Risk+Optometric+Associates,+PA/@35.0815221,-78.9588925,17z/data=!3m1!4b1!4m6!3m5!1s0x89ab6b142d902c5b:0x39b6d256d8d44429!8m2!3d35.0815221!4d-78.9567038!16s%2Fg%2F1v9lcnb4"
-                      target="_blank"
-                      rel="noopener noreferrer"
+                    href="https://www.google.com/maps/place/Risk+Optometric+Associates,+PA/@35.0815221,-78.9588925,17z/data=!3m1!4b1!4m6!3m5!1s0x89ab6b142d902c5b:0x39b6d256d8d44429!8m2!3d35.0815221!4d-78.9567038!16s%2Fg%2F1v9lcnb4"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <p>1550 Skibo Rd</p>
                     <p>Fayetteville, NC 28303</p>
@@ -69,7 +72,7 @@ export default function Home() {
                   <a href="tel:9109732366">(910) 973-2366</a>
                 </li>
                 <li>
-                <a
+                  <a
                     href="https://www.google.com/maps/place/Risk+Optometric+Associates,+PA/@35.3489201,-82.4398423,17z/data=!3m1!4b1!4m6!3m5!1s0x8859e9c98405ed6f:0x354c915e067dbd03!8m2!3d35.3489201!4d-82.4376536!16s%2Fg%2F1vxzbbfz"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -92,9 +95,9 @@ export default function Home() {
                 </li>
                 <li>
                   <a
-                      href="https://www.google.com/maps/place/Risk+Optometric+Associates,+PA/@34.7797303,-77.3948936,17z/data=!4m10!1m2!2m1!1sRisk+Optometric+2025+N+Marine+Blvd,+Jacksonville,+NC+28546!3m6!1s0x89a910885d3e9f2f:0x68f793631288bb12!8m2!3d34.7794336!4d-77.3928589!15sCjpSaXNrIE9wdG9tZXRyaWMgMjAyNSBOIE1hcmluZSBCbHZkLCBKYWNrc29udmlsbGUsIE5DIDI4NTQ2IgOIAQGSAQtvcHRvbWV0cmlzdOABAA!16s%2Fg%2F1tfrc0y5"
-                      target="_blank"
-                      rel="noopener noreferrer"
+                    href="https://www.google.com/maps/place/Risk+Optometric+Associates,+PA/@34.7797303,-77.3948936,17z/data=!4m10!1m2!2m1!1sRisk+Optometric+2025+N+Marine+Blvd,+Jacksonville,+NC+28546!3m6!1s0x89a910885d3e9f2f:0x68f793631288bb12!8m2!3d34.7794336!4d-77.3928589!15sCjpSaXNrIE9wdG9tZXRyaWMgMjAyNSBOIE1hcmluZSBCbHZkLCBKYWNrc29udmlsbGUsIE5DIDI4NTQ2IgOIAQGSAQtvcHRvbWV0cmlzdOABAA!16s%2Fg%2F1tfrc0y5"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <p>2025 N Marine Blvd</p>
                     <p>Jacksonville, NC 28546</p>
@@ -102,7 +105,7 @@ export default function Home() {
                   <a href="tel:9109371297">(910) 937-1297</a>
                 </li>
                 <li>
-                <a
+                  <a
                     href="https://www.google.com/maps/place/Risk+Optometric+Associates,+PA/@35.1597615,-79.4263226,17z/data=!3m1!4b1!4m6!3m5!1s0x8854b4f632ce3759:0x7fa669b685765d17!8m2!3d35.1597615!4d-79.4241339!16s%2Fg%2F11ckr_nf68"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -152,28 +155,39 @@ export default function Home() {
               {" "}
               <FaClipboardList /> Come Prepared
             </h2>
-            <p>Fill out our form and contact us to schedule your appointment.</p>
+            <p>
+              Fill out our form and contact us to schedule your appointment.
+            </p>
             <p>Follow these steps for a faster sign-in process!</p>
             <ol>
               <li>Find the right form(s) for you</li>
               <li>Click on the Form you want</li>
               <li>
-                Download the .pdf file on your computer and print it out or fill it out online
+                Download the .pdf file on your computer and print it out or fill
+                it out online
               </li>
               <li>
-                Fill out the electronic form to the best of your knowledge and we&apos;ll help with
-                the rest
+                Fill out the electronic form to the best of your knowledge and
+                we&apos;ll help with the rest
               </li>
               <li>Bring the forms in with you for your visit</li>
             </ol>
             <div className={styles.formLinks}>
-              <a className={styles.formLink} href="/documents/Tricare_Form.pdf" target="_blank">
+              <a
+                className={styles.formLink}
+                href="/documents/Tricare_Form.pdf"
+                target="_blank"
+              >
                 <div>
                   <BsFillFileArrowDownFill />
                 </div>
                 <p>Tricare</p>
               </a>
-              <a className={styles.formLink} href="/documents/Medicare_Form.pdf" target="_blank">
+              <a
+                className={styles.formLink}
+                href="/documents/Medicare_Form.pdf"
+                target="_blank"
+              >
                 <div>
                   <BsFillFileArrowDownFill />
                 </div>

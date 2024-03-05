@@ -16,7 +16,8 @@ function ScrollToTopButton() {
     if (typeof document === "undefined") return;
 
     const handleScroll = () => {
-      const scrollY = typeof document !== "undefined" ? document.body.scrollTop : 0;
+      const scrollY =
+        typeof document !== "undefined" ? document.body.scrollTop : 0;
       if (scrollY > 500) {
         if (!isVisible) setIsVisible(true);
       } else {
@@ -40,7 +41,9 @@ function ScrollToTopButton() {
     <button
       className={`${styles.scrollToTopButton} ${isVisible ? styles.isVisible : ""}`}
       onClick={handleClick}
-      style={{ transition: "opacity 0.3s ease-in-out, visibility 0.3s ease-in-out" }}
+      style={{
+        transition: "opacity 0.3s ease-in-out, visibility 0.3s ease-in-out",
+      }}
     >
       <FaArrowUp />
     </button>
@@ -108,7 +111,11 @@ export default function Container(props) {
           <ul>
             <NavItem href="/" text="Home" closeMenu={closeMenu} />
             <NavItem href="/about-us" text="About Us" closeMenu={closeMenu} />
-            <NavItem href="/review" text="Leave A Review" closeMenu={closeMenu} />
+            <NavItem
+              href="/review"
+              text="Leave A Review"
+              closeMenu={closeMenu}
+            />
           </ul>
         </div>
       </nav>
@@ -134,8 +141,8 @@ export default function Container(props) {
             </div>
             <div className={styles.copyright}>
               <p>
-                &copy; {new Date().getFullYear()} Risk Optometric Associates, PA. All Rights
-                Reserved.
+                &copy; {new Date().getFullYear()} Risk Optometric Associates,
+                PA. All Rights Reserved.
               </p>
             </div>
           </div>
@@ -146,10 +153,22 @@ export default function Container(props) {
                 passHref
                 target="_blank"
               >
-                <Image src={instagramLogo} alt="Risk Optometric Associates Instagram" height={50} />
+                <Image
+                  src={instagramLogo}
+                  alt="Risk Optometric Associates Instagram"
+                  height={50}
+                />
               </NextLink>
-              <NextLink href="https://www.facebook.com/nceyedocs.roa" passHref target="_blank">
-                <Image src={facebookLogo} alt="Risk Optometric Associates Facebook" height={50} />
+              <NextLink
+                href="https://www.facebook.com/nceyedocs.roa"
+                passHref
+                target="_blank"
+              >
+                <Image
+                  src={facebookLogo}
+                  alt="Risk Optometric Associates Facebook"
+                  height={50}
+                />
               </NextLink>
             </div>
           </div>

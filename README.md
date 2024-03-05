@@ -35,7 +35,7 @@ cd optometric-practice-website
 
 ```bash
 npm install
-````
+```
 
 3. Run the development server:
 

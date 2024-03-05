@@ -8,7 +8,10 @@ export default function Home() {
     <>
       <Head>
         <title>Risk Optometric Associates, PA</title>
-        <meta name="description" content="Risk Optometrics Associates Eye Care Practice" />
+        <meta
+          name="description"
+          content="Risk Optometrics Associates Eye Care Practice"
+        />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -18,14 +21,26 @@ export default function Home() {
             <h1>Leave A Review!</h1>
             <p>How do I do it?</p>
             <ol>
-              <li>Choose the location you visited by clicking on the address below.</li>
-              <li>You will be redirected to the Google Reviews page for the selected location.</li>
-              <li>If you&apos;re not already signed in, sign in to your Google account.</li>
               <li>
-                Rate your experience using the 5-star rating system, and add any additional comments
-                in the text box.
+                Choose the location you visited by clicking on the address
+                below.
               </li>
-              <li>When you&apos;re done, click &quot;Post&quot; to submit your review.</li>
+              <li>
+                You will be redirected to the Google Reviews page for the
+                selected location.
+              </li>
+              <li>
+                If you&apos;re not already signed in, sign in to your Google
+                account.
+              </li>
+              <li>
+                Rate your experience using the 5-star rating system, and add any
+                additional comments in the text box.
+              </li>
+              <li>
+                When you&apos;re done, click &quot;Post&quot; to submit your
+                review.
+              </li>
             </ol>
           </div>
 
