@@ -1,17 +1,7 @@
 import Container from "@/components/Container";
-import blueCross from "@/public/images/insurance/bluecrossblueshield_north_carolina.svg";
-import cec from "@/public/images/insurance/cec.svg";
-import eye_med from "@/public/images/insurance/eye-med.svg";
-import humana from "@/public/images/insurance/humana.svg";
-import medicaid from "@/public/images/insurance/medicaid.svg";
-import medicare from "@/public/images/insurance/medicare.svg";
-import spectera from "@/public/images/insurance/spectera.svg";
-import superior_vision from "@/public/images/insurance/superior-vision.svg";
-import tricare from "@/public/images/insurance/tricare.svg";
 import styles from "@/styles/Home.module.css";
 import Head from "next/head";
-import Image from "next/image";
-import { BsFillFileArrowDownFill } from "react-icons/bs";
+import { BsDownload } from "react-icons/bs";
 import { FaClipboardList, FaMapPin, FaWpforms } from "react-icons/fa";
 
 export default function Home() {
@@ -179,7 +169,7 @@ export default function Home() {
                 target="_blank"
               >
                 <div>
-                  <BsFillFileArrowDownFill />
+                  <BsDownload />
                 </div>
                 <p>Tricare</p>
               </a>
@@ -189,7 +179,7 @@ export default function Home() {
                 target="_blank"
               >
                 <div>
-                  <BsFillFileArrowDownFill />
+                  <BsDownload />
                 </div>
                 <p>Medicare</p>
               </a>
@@ -199,7 +189,7 @@ export default function Home() {
                 target="_blank"
               >
                 <div>
-                  <BsFillFileArrowDownFill />
+                  <BsDownload />
                 </div>
                 <p>Other Insurance</p>
               </a>
@@ -209,7 +199,7 @@ export default function Home() {
                 target="_blank"
               >
                 <div>
-                  <BsFillFileArrowDownFill />
+                  <BsDownload />
                 </div>
                 <p>
                   Self Pay <br></br>(No Insurance)
