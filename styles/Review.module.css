@@ -74,6 +74,12 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  transition: background-color 0.3s ease;
+}
+
+.location li:hover {
+  background-color: #71c595;
+  transition: background-color 0.3s ease;
 }
 
 .location li a {
@@ -143,5 +149,14 @@
 
   .location li {
     border: 1px solid #fff;
+  }
+
+  .location li:hover {
+    background-color: #ffffff;
+    transition: background-color 0.3s ease;
+  }
+  .location li:hover > a > p {
+    color: black;
+    transition: color 0.3s ease;
   }
 }

@@ -183,6 +183,7 @@
   display: flex;
   flex-direction: row;
   text-align: center;
+  transition: background-color 0.3s ease;
 }
 
 .formLink p {
@@ -190,9 +191,10 @@
 }
 
 .formLink:hover {
-  background-color: #2b8351;
-  color: #fff;
+  background-color: #71c595;
+  color: black;
   cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
 .formLink svg {
@@ -236,11 +238,6 @@
   .location a {
     font-size: 0.7rem;
     margin: 0;
-  }
-
-  /*TO BE DELETED WHEN PHONE LINES ARE BACK UP*/
-  .location li>p {
-    font-size: 0.7rem;
   }
 
   .formSection p {
