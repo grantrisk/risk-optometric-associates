@@ -59,7 +59,7 @@ export default function Home() {
                     <p>1550 Skibo Rd</p>
                     <p>Fayetteville, NC 28303</p>
                   </a>
-                  <a href="tel:9109732366">(910) 973-2366</a>
+                  <a href="tel:9108683910">(910) 868-3910</a>
                 </li>
                 <li>
                   <a
@@ -103,7 +103,7 @@ export default function Home() {
                     <p>250 Turner St</p>
                     <p>Aberdeen, NC 28315</p>
                   </a>
-                  <a href="tel:9106950750">(910) 695-0750</a>
+                  <a href="tel:9106951034">(910) 695-1034</a>
                 </li>
                 <li>
                   <a
