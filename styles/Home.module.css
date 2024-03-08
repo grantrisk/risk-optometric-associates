@@ -82,7 +82,7 @@
   color: rgb(var(--foreground-rgb));
 }
 
-.location li a:nth-child(2) {
+.location li a:nth-child(2), .location li a:nth-child(4) {
   color: #2b8351;
 }
 
@@ -99,10 +99,9 @@
   color: #ff6c6c;
 }
 
-/*TO BE DELETED WHEN PHONE LINES ARE BACK UP*/
 .location li > p {
   font-size: 1rem;
-  color: #006280;
+  /*color: #006280;*/
   margin: 0;
 }
 

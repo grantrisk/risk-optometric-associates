@@ -60,6 +60,8 @@ export default function Home() {
                     <p>Fayetteville, NC 28303</p>
                   </a>
                   <a href="tel:9108683910">(910) 868-3910</a>
+                  <p>or</p>
+                  <a href="tel:9109732366">(910) 973-2366</a>
                 </li>
                 <li>
                   <a
