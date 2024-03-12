@@ -136,6 +136,11 @@
   color: rgb(195, 0, 0);
 }
 
+.emergency p:nth-child(3) {
+  padding-top: 10px;
+  font-size: 0.8rem;
+}
+
 .nonEmergency {
   padding-top: 1rem;
 }

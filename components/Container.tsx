@@ -127,8 +127,10 @@ export default function Container(props) {
             <h3>Risk Optometric Associates, PA</h3>
             <div className={styles.emergency}>
               <p>After Hours Emergency Number:</p>
+              <a href="tel:910-527-9517">(910) 527-9517</a>
               <p>
-                <a href="tel:910-527-9517">(910) 527-9517</a>
+                If we do not contact you in 10 minutes please go to the local
+                emergency room.
               </p>
             </div>
             <div className={styles.nonEmergency}>
