@@ -81,9 +81,9 @@ export default function Home() {
                     rel="noopener noreferrer"
                   >
                     <p>601 Souter Pl</p>
-                    <p>Fort Bragg, NC 28307</p>
+                    <p>Fort Liberty, NC 28307</p>
                   </a>
-                  <a href="tel:9104970082">(910) 497-0082</a>
+                  <a href="tel:9108012020">(910) 801-2020</a>
                 </li>
                 <li>
                   <a

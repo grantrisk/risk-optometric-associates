@@ -87,7 +87,7 @@ export default function Home() {
                     rel="noopener noreferrer"
                   >
                     <p>601 Souter Pl</p>
-                    <p>Fort Bragg, NC 28307</p>
+                    <p>Fort Liberty, NC 28307</p>
                   </a>
                 </li>
                 <li>
